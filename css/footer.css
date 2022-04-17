@@ -1,27 +1,27 @@
-footer {
-  position: relative;
-  font-size: 14px;
-  z-index: 103;
-  width: 100%;
+.bottom-outer {
+  opacity: 1;
+  display: block;
+  transform: translateY(0px);
+  padding: 2rem 1rem;
+  color: black;
   text-align: center;
-  top: 150px;
+  font-family: Lato, Helvetica Neue For Number, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB,
+    Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-footer .footer-wrap {
-  border-top: 1px solid footer-line;
-  width: 900px;
-  margin: auto;
-  color: label-font;
+.footer-separator {
+  margin: 0 0.2rem;
 }
-footer .footer-wrap div {
-  margin: 15px;
-}
-footer .footer-wrap a {
+
+.framework-info a {
+  color: black;
   text-decoration: none;
-  color: default-link;
+  cursor: pointer;
+  text-decoration: none;
 }
-footer .footer-icon {
-  display: inline-block;
-  margin: 0 10px;
-  color: default-link;
-  font-size: 18px;
+.a1:hover {
+  color: red;
+}
+.a2:hover {
+  color: green;
 }
